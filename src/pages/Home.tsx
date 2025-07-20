@@ -12,7 +12,7 @@ const Home: React.FC = () => {
 
         <div className="w-full flex flex-col items-center gap-10">
             <h1 className='text-6xl font-black'>Signals vs Redux</h1>
-
+{/* testing */}
             <div className="flex flex-col gap-4">
                 <div className="flex justify-between items-center gap-4">
                     <div className="border border-slate-700 rounded !p-1 flex items-center gap-2">
