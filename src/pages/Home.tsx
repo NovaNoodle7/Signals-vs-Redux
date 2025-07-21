@@ -41,7 +41,7 @@ const Home: React.FC = () => {
                     <div className="whitespace-nowrap text-amber-400 font-black">Tip : </div>
                     <p>Open the browser Inspect window &#8680; Profiler Tab &#8680; ⚙️ Icon &#8680; General Tab &#8680; Enable the <span className="bg-slate-700 !px-1 rounded-sm">✅ Highlight updates when components render</span> checkbox to visualize live re-renders.</p>
                 </div>
-{/* testing img */}
+{/*  */}
                 <img src={Screenshot} alt="Settings Screenshot" className='' />
             </div>
         </div>
