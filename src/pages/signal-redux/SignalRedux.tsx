@@ -37,10 +37,10 @@ const SignalRedux: React.FC = () => {
             <div className="flex gap-4 items-end">
                 <label>
                     <p>Set Interval <span className='text-slate-400 text-sm'> (Default: 17ms = 60FPS)</span></p>
-{/* for testing */}
+
                     <input
                         type='number'
-                        // value={intervalTime.value}for testing
+                        value={intervalTime.value}
                         onChange={(e) => intervalTime.value = parseInt(e.target.value) || 0}
                         className='w-[250px] h-10 text-center text-2xl font-bold bg-slate-800 text-white' />
                 </label>
