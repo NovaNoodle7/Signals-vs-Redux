@@ -13,7 +13,7 @@ const Widget: React.FC = () => {
             barRef.current.style.width = `${value}%`;
         }
     }, [value])
-
+// feat widget
     return <div className="flex gap-1 w-full h-fit bg-slate-700">
         <div className="w-full bg-slate-500">
             <div
