@@ -6,7 +6,7 @@ const ThemeToggle = () => {
     const dispatch = useDispatch();
 
     const toggleTheme = () => dispatch(themeActions.toggleTheme());
-
+// feat themebutton
     return (
         <button onClick={toggleTheme} className="w-[100px] flex justify-center items-center border-2 border-slate-500 rounded !p-2 cursor-pointer">
             {theme === 'dark' ? 'Dark' : 'Light'}
