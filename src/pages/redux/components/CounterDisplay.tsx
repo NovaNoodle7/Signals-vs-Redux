@@ -4,7 +4,7 @@ import { counterActions, SEL_Counter } from "../../../store/redux";
 const CounterDisplay = () => {
     const counter = useSelector(SEL_Counter);
     const dispatch = useDispatch();
-// feat counter 
+// testing counter 
     const incrementSignal = () => dispatch(counterActions.increment());
     const decrementSignal = () => dispatch(counterActions.decrement());
     return (
