@@ -11,7 +11,7 @@ type Props = {
     disableCounter?: boolean;
     disableTheme?: boolean;
 }
-// feat header
+// fix header
 const ThemeAndLink = ({ disabled }: { disabled: boolean }) => {
     return (
         <div className="flex items-center gap-2">
