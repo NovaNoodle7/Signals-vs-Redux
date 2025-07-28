@@ -7,7 +7,7 @@ const WidgetContainer: React.FC = () => {
   const [widgetCount, setWidgetCount] = useState<number>(100);
   const [intervalTime, setIntervalTime] = useState<number>(17);
   const dispatch = useDispatch();
-// testing
+// fix
   useEffect(() => {
     const interval = setInterval(() => {
       console.log("Single Redux Update Running")
